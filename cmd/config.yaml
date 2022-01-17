@@ -1,0 +1,18 @@
+serverHost: "localhost:8080"
+
+mongo:
+  server: "mongodb://mongo:27017"
+  database: mgo
+  collection: user
+  credentials:
+    username: "root"
+    password: "password"
+
+staticAssets: "/config/form"
+
+mail:
+  host: "smtp.gmail.com"
+  port: 587
+  sender: "email sender <your@email.com>"
+  user: "your@email.com"
+  password: "yourEmailPassword"
